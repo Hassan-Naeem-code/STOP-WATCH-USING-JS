@@ -51,9 +51,9 @@ function reset() {
     minutes.innerHTML = 0;
     hours.innerHTML = 0;
     i = 0;
-    j = 0;
-    k = 0;
-    l = 0;
+    j = 1;
+    k = 1;
+    l = 1;
     startBtn.disabled = false;
     clearInterval(interval);
 }
