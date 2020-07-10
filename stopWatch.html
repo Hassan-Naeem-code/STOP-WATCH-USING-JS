@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./stopWatch.css" />
+  </head>
+
+  <body>
+    <h1>STOP WATCH</h1>
+    <h2 id="hour" class="time">0</h2>
+    <h2 id="minute" class="time">0</h2>
+    <h2 id="second" class="time">0</h2>
+    <h2 id="milliSecond" class="time">0</h2>
+    <button type="button" onclick="start()" id="start" title="START">
+      <i class="fa fa-play" id="str"></i>
+    </button>
+    <button type="button" onclick="reset()" id="reset" title="RESET">
+      <i class="fa fa-history" id="rst"></i>
+    </button>
+    <button type="button" onclick="stop()" id="stop" title="STOP">
+      <i class="fa fa-dot-circle-o" id="stp"></i>
+    </button>
+  </body>
+  <script src="./stopWatch.js"></script>
+</html>
